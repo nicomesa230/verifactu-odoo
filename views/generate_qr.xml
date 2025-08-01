@@ -1,0 +1,15 @@
+<odoo>
+    <template id="report_invoice_document_inherit_verifactu_qr"
+             inherit_id="account.report_invoice_document"
+             priority="100">
+        <xpath expr="//t[@t-name='account.report_invoice_document']" position="inside">
+            <t t-if="o.verifactu_qr">
+                <div style="margin-top: 30px; text-align: left;">
+                    <img t-att-src="'data:image/png;base64,%s' % (o.verifactu_qr.decode('utf-8') if isinstance(o.verifactu_qr, bytes) else o.verifactu_qr)"
+                         style="width: 80px; height: 80px; object-fit: contain;" alt="QR VeriFactu"/>
+                    <p style="font-size:10px; color:#888; text-align: left;">Visualizar factura</p>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>
