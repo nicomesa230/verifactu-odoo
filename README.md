@@ -31,8 +31,8 @@ Currently available for **Odoo 16**, with planned support for future versions.
 ## 📬 Contact
 For questions, support, or contributions, please reach out via:  
 
-- linkedin.com/in/nicolas-mesa-munoz  
-- https://github.com/nicomesa230  
+- [GitHub](https://github.com/nicomesa230)
+- [LinkedIn](https://linkedin.com/in/nicolas-mesa-munoz) 
 
 ---
 
